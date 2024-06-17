@@ -29,7 +29,9 @@ const DrumPad = ({ id, keyTrigger, src, description }) => {
                                                                       <div className="col-md-4 mb-3">
                                                                             <button className="drum-pad btn btn-primary btn-lg btn-block" id={id} onClick={playSound}>
                                                                                     {keyTrigger}
-                                                                                            <audio ref={audioRef} className="clip" id={keyTrigger} src={`audio/${src}`}></audio>
+                                                                                            <audio ref={audioRef} className="clip" id={keyTrigger} src={`audio/${src
+                                                                                              
+                                                                                            }`}></audio>
                                                                                                   </button>
                                                                                                       </div>
                                                                                                         );
